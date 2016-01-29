@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+body {
+	margin:0;
+}
+
+
+#navbar{
+	/*width:660px;*/
+}
+
+#navbar #holder{
+	height:34px;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+	background: #4E5E63;
+}
+
+#navbar #holder ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:475px;
+	padding-left:25px;
+}
+
+#navbar #holder ul li a{
+	text-decoration:none;
+	float:left;
+	font-size: 20px;
+	color:#FFF;
+	border:1px solid #000;
+	border-bottom:none;
+	border-top:none;
+	padding:5px;
+	width:100px;
+	text-align:center;
+	display:block;
+	background:#4E5E63;
+}
+
+#navbar #holder ul li a:hover{
+	background:#57686E;
+	color:#B5BBBD;
+	text-shadow:1px 1px 1px #000;*/
+}
+
+#holder ul li a#onlink{
+	background:#475559;
+	color:#000;
+	border-bottom:4px solid #68CCED;
+}
+
+#holder ul li a:active{
+	background:#475559;
+	color:#000;
+	border-bottom:4px solid #68CCED;
+}
+
+#holder ul li a#onlink:hover{
+	background:#475559;
+	color:#000;
+}
+
+#homeinfo{
+	width:530px;
+	margin:0;
+	text-align:left;
+}
+
+#skillsinterests{
+	width:500px;
+	text-align:left;
+}
+
+#contactinfo{
+	width:225px;
+	text-align:left;
+}
+
+#aboutme{
+	width:600px;
+	text-align:left;
+}
+
+#internships{
+	width:650px;
+	text-align:left;
+}
+
+#internship_contents{
+	width:600px;
+	text-align:left;
+}
+
+#projects{
+	width:650px;
+	text-align:left;
+}
+
+#project_contents{
+	width:600px;
+	text-align:left;
+}
